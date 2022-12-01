@@ -15,9 +15,9 @@ class Product
     private $price;
     private $inStock;
 
-    // TODO Skriv en konstruktor som sätter alla properties == DONE
+    // TODO Skriv en konstruktor som sätter alla properties
 
-    // TODO Skriv getters för alla properties == DONE
+    // TODO Skriv getters för alla properties
 
     public function getId(){
         return $this->id;

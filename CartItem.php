@@ -29,6 +29,8 @@ class CartItem
         
         if($this -> quantity < $this -> product -> getInStock()){
             $this -> quantity += 1;
+        } else {
+            echo "Kan inte lägga till. Slut i lager";
         }
     }
 }
